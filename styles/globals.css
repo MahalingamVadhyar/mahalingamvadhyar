@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: optional;
+  src: url(/fonts/karla.ttf) format('ttf');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+::selection {
+  background: rgb(185, 249, 255);
+  color: rgb(255, 255, 255);
+}
+
+::-moz-selection {
+  background: rgb(185, 249, 255);
+  color: rgb(255, 255, 255);
+}

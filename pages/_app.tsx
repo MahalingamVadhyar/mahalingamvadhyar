@@ -1,0 +1,32 @@
+import { DefaultSeo } from 'next-seo'
+import { AppProps } from 'next/app'
+import Head from 'next/head'
+import { SkeletonTheme } from 'react-loading-skeleton'
+import '~/styles/globals.css'
+
+const title = 'Mahalingamvadhyar - Coimbatore'
+const SEO = {
+  title,
+  canonical: 'http://mahalingamvadhyar.com',
+  openGraph: {
+    type: 'website',
+    locale: 'en_IE',
+    url: 'http://mahalingamvadhyar.com',
+    title,
+  },
+}
+
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <Head>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>Mahalingamvadhyar - Coimbatore</title>
+      </Head>
+      <DefaultSeo {...SEO} />
+      <SkeletonTheme color="#191919" highlightColor="#404040">
+        <Component {...pageProps} />
+      </SkeletonTheme>
+    </>
+  )
+}
