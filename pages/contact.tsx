@@ -2,7 +2,6 @@ import { NextPage } from 'next'
 import Heading from '~/components/Heading'
 import Layout from '~/components/Layout'
 import Projects from '~/components/Projects'
-import { PaperClipIcon } from '@heroicons/react/solid'
 
 const About: NextPage = () => {
   return (
