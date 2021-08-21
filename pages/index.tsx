@@ -75,7 +75,7 @@ const Index: NextPage = () => (
         <div>
           <h1 className="my-6 text-2xl font-bold text-gray-700">Address</h1>
           
-          <spnan className="text-lg"></spnan>
+          <span className="text-lg"></span>
           <p className="mt-6 text-lg text-gray-700">9c S.A Nagar <br/>Muthusamy colony <br/>Selvapuram Coimbatore 641026</p>
         </div>
       </div>
