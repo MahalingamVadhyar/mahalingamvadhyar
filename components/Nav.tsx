@@ -2,14 +2,24 @@ import Link from 'next/link'
 
 const Nav: React.FunctionComponent = () => {
   return (
-    <nav className="flex items-center justify-end text-md py-4 mb-6 md:mb-0">
-      <Link href="/">
-        <a className="pr-3 md:pr-6 md:text-lg hover:text-gray-300">Home</a>
-      </Link>
-      <Link href="/contact">
-        <a className="pr-3 md:pr-6 md:text-lg hover:text-gray-300">Contact</a>
-      </Link>  
+    <nav class="bg-white dark:bg-gray-800">
+        <div class="container p-6 mx-auto">
+            <a class="block text-2xl font-bold text-center text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Mahalingam Vadhyar</a>
+
+            <div class="flex items-center justify-center mt-6 text-gray-600 capitalize dark:text-gray-300">
+                <Link href="/">
+                <a href="#" class="text-gray-800 dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6">home</a>
+                </Link>
+                 <Link href="/poojai">
+                <a href="#" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Poojai</a>
+                </Link>
+                 <Link href="/contact">
+                <a href="#" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Contact us</a>
+                </Link>
+            </div>
+        </div>
     </nav>
+
   )
 }
 
