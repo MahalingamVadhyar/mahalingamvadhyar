@@ -26,14 +26,14 @@ const Index: NextPage = () => (
       <div className="bg-white p-4">
         <div>
           <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-700">M.Manikandan (Main Vadhyar)</h1>
+            <h1 className="text-2xl font-bold text-gray-700">M.Manikandan</h1>
           </div>
 <div className="flex items-center p-4 bg-white rounded-lg shadow-sm dark:bg-gray-800">
       <div className="p-2 mr-4 text-white rounded-full">
         <a href="https://wa.me/919344850599?text=Hello,%20I%20am%20Manikandan%20please%20contact%20me?"><img alt="whatapp" src="img/whatsapp.png"/></a>
       </div>
       <div>
-        <a href="tel:+91 93448 50599"><h4 className="mb-2 text-sm font-medium text-gray-900">+91 93448 50599</h4></a>
+        <a href="tel:+91 93448 50599"><h4 style={{color:'blue'}} className="mb-2 text-sm font-medium text-gray-900">+91 93448 50599</h4></a>
         <p className="text-sm font-normal text-gray-800">Connect us</p>
       </div>
     </div>
@@ -48,7 +48,8 @@ const Index: NextPage = () => (
     <div className="bg-white p-4 md:mt-0 mt-6">
       <div>
         <div className="mb-4">
-          <h1 className="text-2xl font-bold text-gray-700">M.Venkateswaran (Vijay Vadhyar)</h1>
+          <h1 className="text-2xl font-bold text-gray-700">M.Venkateswaran  <span style={{fontSize:'14px'}}>(Vijay Vadhyar)</span></h1>
+
           
         </div>
 
@@ -57,7 +58,7 @@ const Index: NextPage = () => (
         <a href="https://wa.me/919443440856?text=Hello,%20I%20am%20Vijay%20please%20contact%20me?"><img alt="whatapp" src="img/whatsapp.png"/></a>
       </div>
       <div>
-        <a href="tel:+91 9443440856"><h4 className="mb-2 text-sm font-medium text-gray-900">+91 94434 40856</h4></a>
+        <a href="tel:+91 9443440856" ><h4 style={{color:'blue'}} className="mb-2 text-sm font-medium text-gray-900">+91 94434 40856</h4></a>
         <p className="text-sm font-normal text-gray-800">Connect us</p>
       </div>
     </div>
