@@ -7,7 +7,7 @@ interface ProjectProps {
 
 const Project: React.FunctionComponent<ProjectProps> = ({ project }: ProjectProps) => (
   <a href={project.url} target="_blank">
-    <div className="rounded-lg px-6 py-4 h-full border border-gray-700 fade-bg-color">
+    <div className="bg-white p-4 rounded-lg shadow-lg relative hover:shadow-2xl transition duration-500">
       <div className="flex items-center">
         <span className="text-lg font-bold mr-2">{project.title}</span>
         <ExternalLinkIcon className="fill-current h-3 w-3" />
