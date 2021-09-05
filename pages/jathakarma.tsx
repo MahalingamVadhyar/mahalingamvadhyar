@@ -2,8 +2,7 @@ import { NextPage } from 'next'
 import Heading from '~/components/Heading'
 import Layout from '~/components/Layout'
 
-
-const Annaprasanam: NextPage = () => (
+const Jathakarma: NextPage = () => (
   <Layout>
 
   <div className="max-w-2xl mx-auto mt-12 space-y-2">
@@ -19,53 +18,7 @@ const Annaprasanam: NextPage = () => (
       <p className="text-gray-600 leading-6 tracking-normal">பருப்பு தேங்காய், சர்க்கரை கற்கண்டு, பக்ஷணங்கள்</p>
       <p className="text-gray-600 leading-6 tracking-normal">மாவிலை கொத்து, சில்லரை காயின் – 101</p>
 
-<div className="md:grid grid-cols-2 gap-12 lg:px-0">
-    <div>
-
-      <div className="bg-white p-2">
-        <div>
-          <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-700">M.Manikandan</h1>
-          </div>
-<div className="flex items-center p-4 bg-white rounded-lg shadow-sm dark:bg-gray-800">
-      <div className="p-2 mr-4 text-white rounded-full">
-        <a href="https://wa.me/919344850599?text=Hello,%20I%20am%20Manikandan%20please%20contact%20me?"><img alt="whatapp" src="img/whatsapp.png"/></a>
-      </div>
-      <div>
-        <a href="tel:+91 93448 50599"><h4 style={{color:'blue'}} className="mb-2 text-sm font-medium text-gray-900">+91 93448 50599</h4></a>
-        <p className="text-sm font-normal text-gray-800">Connect us</p>
-      </div>
-    </div>
-          <div className="flex">
-            <span className="block mb-4 text-xl"></span>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="bg-white p-4 md:mt-0 mt-6">
-      <div>
-        <div className="mb-4">
-          <h1 className="text-2xl font-bold text-gray-700">M.Venkateswaran  <span style={{fontSize:'14px'}}>(Vijay Vadhyar)</span></h1>
-
-          
-        </div>
-
-        <div className="flex items-center p-4 bg-white rounded-lg shadow-sm dark:bg-gray-800">
-      <div className="p-2 mr-4 text-white rounded-full">
-        <a href="https://wa.me/919443440856?text=Hello,%20I%20am%20Vijay%20please%20contact%20me?"><img alt="whatapp" src="img/whatsapp.png"/></a>
-      </div>
-      <div>
-        <a href="tel:+91 9443440856" ><h4 style={{color:'blue'}} className="mb-2 text-sm font-medium text-gray-900">+91 94434 40856</h4></a>
-        <p className="text-sm font-normal text-gray-800">Connect us</p>
-      </div>
-    </div>
-      </div>
-    </div>
-  </div>
-
-  
+  <button className="py-2 px-4 mt-8 bg-indigo-600 text-white rounded-md shadow-xl">Learn  More</button>
       <div>
         <span className="absolute py-2 px-8 text-sm text-white top-0 right-0 bg-indigo-900 rounded-md transform translate-x-2 -translate-y-3 shadow-xl">அன்னப்ராசனம்</span>
       </div>
@@ -78,4 +31,4 @@ const Annaprasanam: NextPage = () => (
 </Layout>
 )
 
-export default Annaprasanam
+export default Jathakarma

@@ -19,73 +19,73 @@ export const getProjects = (): Project[] => {
     {
       title: 'பீமரதசாந்தி',
       description: "bheemarathashanthi",
-      url: '',
+      url: 'bheemarathashanthi',
     },
     {
       title: 'கணபதி ஹோமம்',
       description: "ganapathyhomam",
-      url: '',
+      url: 'ganapathyhomam',
     },
     {
       title: 'க்ருஹப்ரவேசம்',
       description: 'gruhapravesham',
-      url: '',
+      url: 'gruhapravesham',
     },
     {
       title: 'ஜாதகர்மா & நாமகரணம்',
       description: 'jathakarma',
-      url: '',
+      url: 'jathakarma',
     },
     {
       title: 'கனகாபிஷேகம்',
       description: 'kanakabiseakam',
-      url: '',
+      url: 'kanakabiseakam',
     },
     
     {
       title: 'ம்ருத்யுஞ்சய ஹோமம்',
       description: 'mruthyunjayahomam',
-      url: '',
+      url: 'mruthyunjayahomam',
     },
     {
       title: 'நவக்ரஹ ஹோமம்',
       description: 'navagrahahomam',
-      url: '',
+      url: 'navagrahahomam',
     },
     {
       title: 'ருத்ரைகாதசி',
       description: 'ruthrakaadhashi',
-      url: '',
+      url: 'ruthrakaadhashi',
     },
     {
       title: 'சதாபிஷேகம்',
       description: 'sathabiseakam',
-      url: '',
+      url: 'sathabiseakam',
     },
     {
       title: 'சீமந்தம்',
       description: 'seemantham',
-      url: '',
+      url: 'seemantham',
     },
     {
       title: 'ஷஷ்ட்யப்த பூர்த்தி',
       description: 'shashtyabdhapoorthi',
-      url: '',
+      url: 'shashtyabdhapoorthi',
     },
     {
       title: 'சுதர்சன ஹோமம்',
       description: 'sudarsanahomam',
-      url: '',
+      url: 'sudarsanahomam',
     },
     {
       title: 'உபநயனம்',
       description: 'upanayam',
-      url: '',
+      url: 'upanayam',
     },
     {
       title: '    விவாஹம்',
       description: 'vivaham',
-      url: '',
+      url: 'vivaham',
     },
 
 
