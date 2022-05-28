@@ -20,7 +20,7 @@ const Index: NextPage = () => (
               <a target="_blank" href="https://meet.google.com/getalink?hs=202&authuser=1&illm=1653713477327&hl=en" className="w-full flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-400 hover:bg-indigo-200 md:py-2 md:text-sm md:px-2"> <img className="h-10 w-10" src="img/google-meet.svg" alt="" /> &nbsp;&nbsp;Google Meet</a>
             </div>&nbsp;(or)
             <div className="mt-3 sm:mt-0 sm:ml-3">
-              <a target="_blank" href="https://us05web.zoom.us/j/8815372384?pwd=YjBKek9neFRPUkVRV2hsTm9WTW9VUT09" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-sm md:px-2"> <img className="h-10 w-10" src="img/zoom.svg" alt="" />&nbsp;&nbsp;Zoom Id</a>
+              <a target="_blank" href="https://us05web.zoom.us/j/8815372384" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-sm md:px-2"> <img className="h-10 w-10" src="img/zoom.svg" alt="" />&nbsp;&nbsp;Zoom Id</a>
             </div>
           </div>
 
