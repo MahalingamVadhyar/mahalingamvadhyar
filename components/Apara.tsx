@@ -1,11 +1,11 @@
-import { getProjects, Project as ProjectInterface } from '~/lib/projects'
+import { getApara, Apara as ProjectInterface } from '~/lib/apara'
 import ExternalLinkIcon from './icons/ExternalLink'
 
-interface ProjectProps {
+interface AparaProps {
   project: ProjectInterface
 }
 
-const Project: React.FunctionComponent<ProjectProps> = ({ project }: ProjectProps) => (
+const Project: React.FunctionComponent<AparaProps> = ({ project }: AparaProps) => (
   <a href={project.url}>
     <div className="bg-white p-4 rounded-lg shadow-lg relative hover:shadow-2xl transition duration-500">
       <div className="flex items-center">
@@ -17,8 +17,8 @@ const Project: React.FunctionComponent<ProjectProps> = ({ project }: ProjectProp
   </a>
 )
 
-const Projects = () => {
-  const projects = getProjects()
+const Apara = () => {
+  const projects = getApara()
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -29,4 +29,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Apara

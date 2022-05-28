@@ -19,51 +19,7 @@ const Annaprasanam: NextPage = () => (
       <p className="text-gray-600 leading-6 tracking-normal">பருப்பு தேங்காய், சர்க்கரை கற்கண்டு, பக்ஷணங்கள்</p>
       <p className="text-gray-600 leading-6 tracking-normal">மாவிலை கொத்து, சில்லரை காயின் – 101</p>
 
-<div className="md:grid grid-cols-2 gap-12 lg:px-0">
-    <div>
 
-      <div className="bg-white p-2">
-        <div>
-          <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-700">M.Manikandan</h1>
-          </div>
-<div className="flex items-center p-4 bg-white rounded-lg shadow-sm dark:bg-gray-800">
-      <div className="p-2 mr-4 text-white rounded-full">
-        <a href="https://wa.me/919344850599?text=Hello,%20I%20am%20Manikandan%20please%20contact%20me?"><img alt="whatapp" src="img/whatsapp.png"/></a>
-      </div>
-      <div>
-        <a href="tel:+91 93448 50599"><h4 style={{color:'blue'}} className="mb-2 text-sm font-medium text-gray-900">+91 93448 50599</h4></a>
-        <p className="text-sm font-normal text-gray-800">Connect us</p>
-      </div>
-    </div>
-          <div className="flex">
-            <span className="block mb-4 text-xl"></span>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="bg-white p-4 md:mt-0 mt-6">
-      <div>
-        <div className="mb-4">
-          <h1 className="text-2xl font-bold text-gray-700">M.Venkateswaran  <span style={{fontSize:'14px'}}>(Vijay Vadhyar)</span></h1>
-
-          
-        </div>
-
-        <div className="flex items-center p-4 bg-white rounded-lg shadow-sm dark:bg-gray-800">
-      <div className="p-2 mr-4 text-white rounded-full">
-        <a href="https://wa.me/919443440856?text=Hello,%20I%20am%20Vijay%20please%20contact%20me?"><img alt="whatapp" src="img/whatsapp.png"/></a>
-      </div>
-      <div>
-        <a href="tel:+91 9443440856" ><h4 style={{color:'blue'}} className="mb-2 text-sm font-medium text-gray-900">+91 94434 40856</h4></a>
-        <p className="text-sm font-normal text-gray-800">Connect us</p>
-      </div>
-    </div>
-      </div>
-    </div>
-  </div>
 
   
       <div>
@@ -74,6 +30,74 @@ const Annaprasanam: NextPage = () => (
   </div>
   
   </div> 
+
+  </div>
+   <div className="max-w-2xl mx-auto mt-12 space-y-2">
+        <div className="max-w-2xl mx-auto mt-12 space-y-2">
+        <p className="text-center">
+
+உ<br />
+ஸ்ரீ ராமஜெயம்<br />
+அன்னப்ராசன சுபமுஹூர்த்த பத்திரிக்கை<br />
+மஹா ராஜ ராஜ ஸ்ரீ................................... அவர்களுக்கு<br />
+அநேக நமஸ்காரம்/ஆசீர்வாதம்/உபயக்ஷேமம்<br />
+நிகழும் மங்களகரமான ஸ்வஸ்திஸ்ரீ................வருஷம் ................... மாதம்........ம் தேதி (                 ) ............... கிழமை..........................   ................................நக்ஷத்ரம் ....................யோகம் கூடிய சுபதினத்தில் உதயாதி நாழிகை......... க்கு மேல் ....... க்குள் ( காலை மணி ......... க்கு மேல் ........ க்குள் ) ......................லக்னத்தில்
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<br />அன்னப்ராசனம் செய்வதாய் ஈஸ்வர க்ருபையால் ஆசார்யார்களின் அனுக்ரஹத்துடன் பெரியோர்களாள் நிச்சயிக்கப்பட்டு மேற்படி சுபமுஹூர்த்தம் .................................... ......................................................................................................................
+<br />வைத்து நடக்கிறபடியால் தாங்கள் தங்கள் இஷ்டமித்ர பந்துக்களுடன் முன்னதாகவே வந்திருந்து மேற்படி சுபமுஹூர்த்தத்தை நடத்திக்கொடுத்து குழந்தையை ஆசீர்வதித்து என்னையும் கௌரவிக்க வேண்டுமாய் கேட்டுக்கொள்கிறேன்.
+<br />இப்படிக்கு
+
+</p>
+        </div>
+        </div>
+  <div className="md:grid grid-cols-2 gap-6 lg:px-40 align-center">
+   
+
+     
+<div className="bg-white p-4 md:mt-0 mt-2">
+     
+        <div className="mb-1">
+          <h1 className="text-2xl font-bold text-gray-700">M.Manikandan  <span style={{fontSize:'14px'}}>(Mani Vadhyar)</span></h1>
+      </div>
+
+        <div className="flex items-center p-1 bg-white rounded-lg shadow-sm dark:bg-gray-800">
+      <div className="flex flex-basis p-2 mr-4 text-white rounded-full">
+     
+        <a href="https://wa.me/919344850599?text=Hello,%20I%20am%20Vijay%20please%20contact%20me?">
+        <div className="flex"><img alt="whatapp" className="h-10 w-10" src="img/whatsapp-color.png"/>
+         <img className="h-10 w-10" src="img/telegram-logo-945.png"/></div></a>
+         <div>
+        <a href="tel:+91 919344850599" ><h3 style={{color:'blue'}} className="mb-0 text-lg font-medium text-gray-900">+91 93448 50599</h3></a>
+        <p className="text-sm font-normal text-gray-800">Connect us</p>
+      </div>
+      </div>
+      
+    </div>
+      
+    </div>
+
+    <div className="bg-white p-4 md:mt-0 mt-2">
+     
+        <div className="mb-1">
+          <h1 className="text-2xl font-bold text-gray-700">M.Venkateswaran  <span style={{fontSize:'14px'}}>(Vijay Vadhyar)</span></h1>
+      </div>
+
+        <div className="flex items-center p-1 bg-white rounded-lg shadow-sm dark:bg-gray-800">
+      <div className="flex flex-basis p-2 mr-4 text-white rounded-full">
+     
+        <a href="https://wa.me/919443440856?text=Hello,%20I%20am%20Vijay%20please%20contact%20me?">
+        <div className="flex"><img alt="whatapp" className="h-10 w-10" src="img/whatsapp-color.png"/>
+         <img className="h-10 w-10" src="img/telegram-logo-945.png"/></div></a>
+         <div>
+        <a href="tel:+91 9443440856" ><h3 style={{color:'blue'}} className="mb-0 text-lg font-medium text-gray-900">+91 94434 40856</h3></a>
+        <p className="text-sm font-normal text-gray-800">Connect us</p>
+      </div>
+      </div>
+      
+    </div>
+      
+    </div>
+    
   </div>
 </Layout>
 )

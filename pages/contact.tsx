@@ -15,7 +15,7 @@ const About: NextPage = () => {
       <div className="bg-white p-4">
         <div>
           <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-700">M.Manikandan (Main Vadhyar)</h1>
+            <h1 className="text-2xl font-bold text-gray-700">M.Manikandan (Mani Vadhyar)</h1>
           </div>
 <div className="flex items-center p-4 bg-white rounded-lg shadow-sm dark:bg-gray-800">
       <div className="p-2 mr-4 text-white rounded-full">
