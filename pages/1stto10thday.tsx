@@ -13,7 +13,7 @@ const firstandtenthday: NextPage = () => (
     <div className="containter mx-auto px-0">
     <div className="bg-white p-4 rounded-lg shadow-lg relative hover:shadow-2xl transition duration-500">
       <h1 className="text-2xl text-gray-800 font-semibold mb-3">நித்யவிதி (முதல் பத்து நாட்கள் வரை) </h1>
-      <table class="table-auto">
+      <table className="table-auto">
   <thead>
     <tr>
       <th></th>
@@ -115,7 +115,7 @@ const firstandtenthday: NextPage = () => (
 
  <div className="mt-2"></div>
  <div>
- <ul class="list-outside hover:list-inside">
+ <ul className="list-outside hover:list-inside">
    <li>பக்ஷணங்கள்</li>
 <li>சாதம் - 1 படி, பாயசம், அப்பம், உளுந்து வடை, இட்லி, தோசை, எள்ளுருண்டை,
 முறுக்கு, அகத்திக்கீரை,பச்சைப்பயிறு(வேகவைத்து), வாழைக்காய்(வேகவைத்து)

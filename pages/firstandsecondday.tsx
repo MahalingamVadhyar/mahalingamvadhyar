@@ -53,7 +53,7 @@ const firstandsecondday: NextPage = () => (
 
  <div className="mt-2"></div>
  <div>
- <ul class="list-outside hover:list-inside">
+ <ul className="list-outside hover:list-inside">
    <li>கன்டங்கத்திரி</li>
 <li>ஆணி</li>
 <li>அடை</li>
